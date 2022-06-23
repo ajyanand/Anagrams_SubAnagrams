@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import sys
 import numpy as np
 
@@ -9,3 +10,6 @@ while True:
         wordList = np.genfromtxt(sys.argv[0], dtype= 'char', comments='#', delimiter=None)
     except Exception as e:
         print(e)
+=======
+
+
