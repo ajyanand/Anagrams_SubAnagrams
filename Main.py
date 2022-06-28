@@ -75,6 +75,5 @@ where n1 is the maximum size of the word
 where n2 is the maximum size of a word in the dictionary
 - we iterate through each word in the dictionary once, this has a complexity of m
 - Total complexity of the algorithm can then be written as O(n1*log(n1) + m *(n2*log(n2)+1))
-
 """
 
