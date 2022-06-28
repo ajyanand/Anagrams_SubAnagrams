@@ -67,4 +67,14 @@ for item in wordList:
 print('size of the word list is: ',len(wordList))                  
 print(f"The number of matching anagrams and sub anagrams are: {anagrams}")
 
+"""
+To account for the complexity of the algorithm:
+- we sort the word to compare each item in the dictionary against once - this has a maximum complexity of O(n1*log(n1)) 
+where n1 is the maximum size of the word
+- we sort each item in the dictionary once this has a maximum complexity of O(n2*log(n2)) * m (where m is the size of the dictionary)
+where n2 is the maximum size of a word in the dictionary
+- we iterate through each word in the dictionary once, this has a complexity of m
+- Total complexity of the algorithm can then be written as O(n1*log(n1) + m *(n2*log(n2)+1))
+
+"""
 
